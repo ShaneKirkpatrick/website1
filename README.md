@@ -8,25 +8,22 @@ First website, HTML &amp; CSS
 <head>
   
   <style>
-body, a, h1, h2, h3, h4, h5, p, ul, ol, table, tr, td {
+body, a, h1, h2, h3, h4, h5, p, ul, ol,{
 	border: 2px black;
 	position: absolute;
 	left:20%;
 	height: 200px;
  	cellpadding:2;
 	}
-.sliddinglinks {width 20%
-     position: fixed
-	}
-.sliddinglogo {position : fixed;
-    right :20px;
-    top :20px
-	}
 img {max-height:200px;
 	max-width: 200px;
 	}
-table {border:2;
-	width: 200px}
+	
+table, tr, td {border="2"; 
+	cellspace="2"; 
+	cellpadding="3"; 
+	width="30%";
+	}
 	
 </style>
 
@@ -51,19 +48,20 @@ table {border:2;
 <body> <br />
 <h3>Quick Links: </h3><br />
 <!-- making an atribute link, with Tool Tip -->
-<a href="https://www.twiter.com/ShaneKirkpatrick19?s=03" title="Twitter">Link</a> <br />
-  <a href="https://www.instagram.com/shaneckirkpatrick" title="Instagram">Link</a> <br />
-  <a href="https://www.facebook.com/shane.kirk.142" title="Facebook">Link</a> <br />
-  <a href="https://www.youtube.com/channel/UCPzh9wYRqd86EID5KFTnScw?view_as=subscriber" title="YouTube">Link</a> <br />
-  <a href="https://open.spotify.com/user/shane.kirkpatrick.kirkpatrick?si=AnnNvqHLSe6r-yXJm6oWHA" title="Spotify">Link</a> <br />
+<a href="https://www.twiter.com/ShaneKirkpatrick19?s=03" title="Twitter">Twitter</a> <br />
+  <a href="https://www.instagram.com/shaneckirkpatrick" title="Instagram">Instagram</a> <br />
+  <a href="https://www.facebook.com/shane.kirk.142" title="Facebook">Facebook</a> <br />
+  <a href="https://www.youtube.com/channel/UCPzh9wYRqd86EID5KFTnScw?view_as=subscriber" title="YouTube">YouTube</a> <br />
+  <a href="https://open.spotify.com/user/shane.kirkpatrick.kirkpatrick?si=AnnNvqHLSe6r-yXJm6oWHA" title="Spotify">Spotify</a> <br />
   <a href="https://www.google.com" title="Tool Tip">Link</a> <br />
 
 
 <!-- Slidding logo -->
-<a href="https://google.com" #sliddinglogo > <img src="Eco Gear PDX.png"/> </a> <br />
+<a href="https://google.com"> <img src="Eco Gear PDX.png"/> </a> <br />
 
 <!-- Profile Picture -->
-<a> img src="Screenshot_20191215-171253_profilepic.jpg"/> </a> <br />
+<a> <img src="Screenshot_20191215-171253_profilepic.jpg"/> </a> <br />
+
 <h2> Shane Kirkpatrick, </h2>
 <strong><h3> Pasion, Community, Growth </h3></strong>
 <em><h3> He/Him/His </h3></em> <br />
@@ -73,21 +71,21 @@ table {border:2;
 
 <!-- width="% of page or number of pixels"-->
 <!-- cellspacing="space between cells" cellpadding="Spacing inside cells around cell content"-->
-<table border="2">
-	<tr>	<th colspan="3"><h3> Full Title</h3></th>	</tr>
+<table>
+	<tr>	<th colspan="100%"><h3> Full Title</h3></th>	</tr>
 	<tr>	<th> Header 1</th><th> Header 2</th><th> Header 3</th>	</tr>
 	<tr>	<td> Item 1</td><td> Item 2</td><td> Item 3</td>	</tr>
 	<tr> 	<td> Item 4</td><td> Item 5</td><td> Item 6</td>	</tr>
 </table><br />
 
-Some More:
+<h2>Hot Takes:/h2>
 <table border="1">
 	<tr>	<th colspan="3"><h3> Full Title</h3>	</th>
 	<tr>	<th> Header</th><th> Longer Header</th>	</tr> 
 	<tr>	<td > Item 1</td><td> Item 2 is a longer one taking up some space</td>	</tr>
 </table><br />
 
-<h2>Photo Table</h2>
+<h2>Todays Puzzel</h2>
 <!-- turn into a puzzel/ tik tac toe game-->
 <table border="2" width="50%" cellspacing="10">
 	<tr> 
@@ -102,19 +100,29 @@ Some More:
 	</tr>
 </table> <br />
 
-<h2> <a name="Cool List"></a> Cool List </h2> <br />
-<h2> Unordered list </h2>
-<ul> <!-- bullet points-->
-<li>This is a thing on a list</li>
-<li>This is a new thing on a list</li>
-<li>This is a thing on a list</li>
-</ul>
-<h2> Ordered list </h2>
-<ol><!-- numbered points-->
-<li>This is a thing on a list</li>
-<li>This is a new thing on a list</li>
-<li>This is a thing on a list</li>
+<h1> <a name="Cool List"></a> This Months Ambassadors </h1> 
+<h2> Kennedy H- The AWARE Campeign</h2>
+<ol>
+<li>Public Health, The Unfunded Joke</li>
+<li>The cow in me</li>
+<li>Disney is Culture</li>
 </ol> <br />
+
+<h2> Kevin S- All Fathers Club</h2>
+<ol>
+<li>Busness Isn't a Joke</li>
+<li>Breaking Bread</li>
+<li>Swagy Clout Bruh</li>
+</ol> <br />
+
+<h2> Cooper R - Program Your Life</h2>
+<ol>
+<li>We are what we make</li>
+<li>Collaboration Education United</li>
+<li>Home Grown, Home Cooked</li>
+</ol> <br />
+
+<p>Teri, Mo, Colton, Ben, Kenny, etc.
 
 <!-- Select catagories to refine results or KWS search -->
 <h3> <a name="Free Resources">Free Resources</a> </h3>
@@ -125,7 +133,7 @@ Some More:
   Top 50 videos:   Adventures of Eg:       Breakfast Corner:       Shane's top 15: <br />
 
 <h3><a name="Podcasts"></a> Podcasts</h3>
-<p> Our only goal is to bring you all the very best listening experiance posible. We think that looks like providing value for free, listening to feedback and taking risks. Any ambassador has the option to ad their own personal podcasts and we have a list below. Check for your favorite ambasador:<br />
+<p> Our only goal is to bring you all the very best listening experiance posible. We think that looks like providing value for free, listening to feedback and taking risks. Any ambassador has the option to ad their own personal podcasts and we have a list below. Check for your favorite ambasador:</p><br />
 <form>
 <!-- ad links and a search feature -->
 From A - Z?
@@ -137,7 +145,8 @@ From A - Z?
 		<option value="Kevin S"> Kevin S</option>
 	</seclect>
 
-</form><br />
+</form>
+<br />
 
 <!-- make sure thelink works-->
 <h3> <a name="Articles"></a> Articles </h3>
