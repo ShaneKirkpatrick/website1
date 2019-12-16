@@ -134,8 +134,9 @@ table, tr, td {border="2";
 
 <h3><a name="Podcasts"></a> Podcasts</h3>
 <p> Our only goal is to bring you all the very best listening experiance posible. We think that looks like providing value for free, listening to feedback and taking risks. Any ambassador has the option to ad their own personal podcasts and we have a list below. Check for your favorite ambasador:</p><br />
-<form>
+
 <!-- ad links and a search feature -->
+<form>
 From A - Z?
 	<select name="Ambassador Podcast's"> 
 		<option value="Shane K"> Shane K</option>
@@ -143,7 +144,7 @@ From A - Z?
 		<option value="Ben R"> Ben R</option>
 		<option value="Kennedy H"> Kennedy H</option>
 		<option value="Kevin S"> Kevin S</option>
-	</seclect>
+	</select>
 
 </form>
 <br />
