@@ -1,30 +1,14 @@
+# website1
+First website, HTML &amp; CSS
 <!doctype html>
 <!-- Above is not a valid doctype -->
 
 <html>
-
 <head>
-  
 <style>
-body, a, h1, h2, h3, h4, h5, p, ul, ol,{
-	border: 2px black;
-	position: absolute;
-	left:20%;
-	height: 200px;
- 	cellpadding:2;
-	}
-img {max-height:200px;
-	max-width: 200px;
-	}
-	
-table, tr, td {border="2"; 
-	cellspace="2"; 
-	cellpadding="3"; 
-	width="30%";
-	}
-	
 </style>
 
+<link rel="stylesheet" type="text/css" href="myBaseStyleSheet.css" />
 
 <title id="second"> Kirkpatrick Media </title>
 <h2> <a name="Top Of Page"> Welcome to Kirkpatrick Media:</a></h2>
@@ -55,48 +39,22 @@ table, tr, td {border="2";
 
 
 <!-- Slidding logo -->
-<a href="https://google.com"> <img src="Eco Gear PDX.png"/; width:200; height:300;> </a> <br />
+<a href="https://google.com"> <img src="Eco Gear PDX.png";/> </a> <br />
 
 <!-- Profile Picture -->
-<a> <img src="Screenshot_20191215-171253_profilepic.jpg"; width:200; height:300;> </a> <br />
-
+<a> <img src="Screenshot_20191215-171253_profilepic.jpg";/> </a> <br />
 <h2> Shane Kirkpatrick, </h2>
 <strong><h3> Pasion, Community, Growth </h3></strong>
 <em><h3> He/Him/His </h3></em> <br />
 <hr />
 
-<h2> <a name="Data Stuff"></a> Data Stuff: </h2> <br />
+<!-- Select catagories to refine results or KWS search -->
+<h3> <a name="Free Resources">Free Resources</a> </h3>
+<p> Welcome to the best section of the site. Here we try to share great free resources.  <br />
 
-<!-- width="% of page or number of pixels"-->
-<!-- cellspacing="space between cells" cellpadding="Spacing inside cells around cell content"-->
-<table>
-	<tr>	<th colspan="100%"><h3> Full Title</h3></th>	</tr>
-	<tr>	<th> Header 1</th><th> Header 2</th><th> Header 3</th>	</tr>
-	<tr>	<td> Item 1</td><td> Item 2</td><td> Item 3</td>	</tr>
-	<tr> 	<td> Item 4</td><td> Item 5</td><td> Item 6</td>	</tr>
-</table><br />
+<a href="Free Cover Letter.pdf">| Free Cover Letter Samlpe | </a>
+<a href="Free Resume.pdf">| Free Resume Samlpe | </a>
 
-<h2>Hot Takes:/h2>
-<table border="1">
-	<tr>	<th colspan="3"><h3> Full Title</h3>	</th>
-	<tr>	<th> Header</th><th> Longer Header</th>	</tr> 
-	<tr>	<td > Item 1</td><td> Item 2 is a longer one taking up some space</td>	</tr>
-</table><br />
-
-<h2>Todays Puzzel</h2>
-<!-- turn into a puzzel/ tik tac toe game-->
-<table border="2" width="50%" cellspacing="10">
-	<tr> 
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-	</tr>
-	<tr> 		
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-		<td> <a href="https://google.com"><img src="googlewebsite.png"/> </a> <br /></td>
-	</tr>
-</table> <br />
 
 <h1> <a name="Cool List"></a> This Months Ambassadors </h1> 
 <h2> Kennedy H- The AWARE Campeign</h2>
@@ -121,10 +79,38 @@ table, tr, td {border="2";
 </ol> <br />
 
 <p>Teri, Mo, Colton, Ben, Kenny, etc.
+	
+<h2> <a name="Data Stuff"></a> Data Stuff: </h2> <br />
 
-<!-- Select catagories to refine results or KWS search -->
-<h3> <a name="Free Resources">Free Resources</a> </h3>
-<p> Welcome to the best section of the site. Here we try to share great free resources.  <br />
+<!-- width="% of page or number of pixels"-->
+<!-- cellspacing="space between cells" cellpadding="Spacing inside cells around cell content"-->
+<table>
+	<tr>	<th colspan="100%"><h3> Full Title</h3></th>	</tr>
+	<tr>	<th> Header 1</th><th> Header 2</th><th> Header 3</th>	</tr>
+	<tr>	<td> Item 1</td><td> Item 2</td><td> Item 3</td>	</tr>
+	<tr> 	<td> Item 4</td><td> Item 5</td><td> Item 6</td>	</tr>
+</table><br />
+
+<h2>: </h2>
+<table border="1">
+	<tr>	<th colspan="3"><h3> Full Title</h3>	</th>
+	<tr>	<th> Header</th><th> Longer Header</th>	</tr> 
+	<tr>	<td > Item 1</td><td> Item 2 is a longer one taking up some space</td>	</tr>
+</table><br />
+
+<h2>Todays Puzzel</h2>
+<!-- turn into a puzzel/ tik tac toe game-->
+<table border="2" width="50%" cellspacing="10">
+	<tr> 
+		<td> <a href="https://canva.com"><img src="3.png"/> </a> </td>
+		<td> <a href="https://canva.com"><img src="4.png"/> </a> </td>
+	</tr>
+	<tr> 		
+		<td> <a href="https://canva.com"><img src="2.png"/> </a> </td>
+		<td> <a href="https://canva.com"><img src="1.png"/> </a> </td>
+	</tr>
+</table> <br />
+
 
 <h3> <a name="TikTok Videos"></a> TikTok Videos </h3>
 <p> Welcome to my TikTok videos. Grab some popcorn and get comfy because you won't wanna miss a second! <br />
@@ -134,6 +120,7 @@ table, tr, td {border="2";
 <p> Our only goal is to bring you all the very best listening experiance posible. We think that looks like providing value for free, listening to feedback and taking risks. Any ambassador has the option to ad their own personal podcasts and we have a list below. Check for your favorite ambasador:</p><br />
 
 <!-- ad links and a search feature -->
+<!-- should be a list! -->
 <form>
 From A - Z?
 	<select name="Ambassador Podcast's"> 
@@ -149,7 +136,7 @@ From A - Z?
 
 <!-- make sure thelink works-->
 <h3> <a name="Articles"></a> Articles </h3>
-<p> In the articles section you will find a varriety of written content including: books, comics, notes, articles, reports etc. that an Ambassador worked on. We have an extensive list of other articles that are helpful and usefull. You can find them in: </p> <p #sliddingtext><a href="#Free Resources"> Free Resources</a><br />
+<p> In the articles section you will find a varriety of written content including: books, comics, notes, articles, reports etc. that an Ambassador worked on. We have an extensive list of other articles that are helpful and usefull. You can find them in: #sliddingtext><a href="#Free Resources"> Free Resources</a></p>
 
 <h3><a name="About us"></a> About us </h3>
 <p> Kirkpatrick Media was created in 2020 by Shane Kirkpatrick as a place where he could post photos, vidoes, articles, other social media content and free resources. This was created out of frustration and excitement. These thoughts were born out of the idea that there is a ton of free content, entertainment, and production applications. Everything here is made as an example of what you can do if you are interested. Please email Shane with any thoughts, comments, or criticisms: shaneckirkpatrick@gmail.com</p> <br />
