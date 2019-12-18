@@ -1,0 +1,28 @@
+	body, a, h1, h2, h3, h4, h5, p, ul, ol, table, tr, td {}
+	p > a {}
+
+	div {}
+	.bluetext {}
+	.yellowtext {}	
+	#firstdiv{}
+	#seconddiv{}
+
+	p:first-letter{}
+	body {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	a:link{font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	a:visited{font-family: Ariel; color: white; font-size: 14px; background: black;}
+	a:hover{font-family: Ariel; color: green; font-size: 14px; background: white;}
+	a:active{font-family: Ariel; color: green; font-size: 14px; background: black;}
+	h1 {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	h2 {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	h3 {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	h4 {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	h5 {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	p {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	ul {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	ol {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	table{font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	tr {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	td {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+	span {font-family: Ariel; color: black; font-size: 14px; background: #C0C0C0;}
+
