@@ -8,8 +8,8 @@
 
 <link rel="stylesheet" type="text/css" href="myBaseStyleSheet.css" />
 
-<title id="second"> Kirkpatrick Media </title>
-<h2> <a name="Top Of Page"> Welcome to Kirkpatrick Media:</a></h2>
+<title> <a name="Top Of Page"> Kirkpatrick Media </a></title>
+<h2> Welcome to Kirkpatrick Media:</h2>
 
 
 <!-- Sliding side menu -->
