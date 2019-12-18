@@ -1,5 +1,3 @@
-# website1
-First website, HTML &amp; CSS
 <!doctype html>
 <!-- Above is not a valid doctype -->
 
@@ -100,12 +98,16 @@ First website, HTML &amp; CSS
 
 <h2>Todays Puzzel</h2>
 <!-- turn into a puzzel/ tik tac toe game-->
-<table border="2" width="50%" cellspacing="10">
+<table border="2" width="50%" cellspacing="1">
 	<tr> 
+		<td> <a href="https://canva.com"><img src="3.png"/> </a> </td>
+		<td> <a href="https://canva.com"><img src="4.png"/> </a> </td>
 		<td> <a href="https://canva.com"><img src="3.png"/> </a> </td>
 		<td> <a href="https://canva.com"><img src="4.png"/> </a> </td>
 	</tr>
 	<tr> 		
+		<td> <a href="https://canva.com"><img src="2.png"/> </a> </td>
+		<td> <a href="https://canva.com"><img src="1.png"/> </a> </td>
 		<td> <a href="https://canva.com"><img src="2.png"/> </a> </td>
 		<td> <a href="https://canva.com"><img src="1.png"/> </a> </td>
 	</tr>
@@ -136,7 +138,7 @@ From A - Z?
 
 <!-- make sure thelink works-->
 <h3> <a name="Articles"></a> Articles </h3>
-<p> In the articles section you will find a varriety of written content including: books, comics, notes, articles, reports etc. that an Ambassador worked on. We have an extensive list of other articles that are helpful and usefull. You can find them in: #sliddingtext><a href="#Free Resources"> Free Resources</a></p>
+<p> In the articles section you will find a varriety of written content including: books, comics, notes, articles, reports etc. that an Ambassador worked on. We have an extensive list of other articles that are helpful and usefull. You can find them in:<a href="#Free Resources"> Free Resources</a></p>
 
 <h3><a name="About us"></a> About us </h3>
 <p> Kirkpatrick Media was created in 2020 by Shane Kirkpatrick as a place where he could post photos, vidoes, articles, other social media content and free resources. This was created out of frustration and excitement. These thoughts were born out of the idea that there is a ton of free content, entertainment, and production applications. Everything here is made as an example of what you can do if you are interested. Please email Shane with any thoughts, comments, or criticisms: shaneckirkpatrick@gmail.com</p> <br />
