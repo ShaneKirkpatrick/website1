@@ -1,5 +1,3 @@
-# website1
-First website, HTML &amp; CSS
 <!doctype html>
 <!-- Above is not a valid doctype -->
 
@@ -7,7 +5,7 @@ First website, HTML &amp; CSS
 
 <head>
   
-  <style>
+<style>
 body, a, h1, h2, h3, h4, h5, p, ul, ol,{
 	border: 2px black;
 	position: absolute;
