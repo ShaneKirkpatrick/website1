@@ -39,10 +39,10 @@ First website, HTML &amp; CSS
 
 
 <!-- Slidding logo -->
-<a href="https://google.com"> <img src="Eco Gear PDX.png";/> </a> <br />
+<a href="https://google.com"> <img src="Eco Gear PDX.png"/> </a> <br />
 
 <!-- Profile Picture -->
-<a> <img src="Screenshot_20191215-171253_profilepic.jpg";/> </a> <br />
+<a> <img src="Screenshot_20191215-171253_profilepic.jpg"/> </a> <br />
 <h2> Shane Kirkpatrick, </h2>
 <strong><h3> Pasion, Community, Growth </h3></strong>
 <em><h3> He/Him/His </h3></em> <br />
