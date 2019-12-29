@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	function calculate(a,b) {
+		var c = a+b;
+		return c;
+	}
+
+document.write(calculate(4,7));
+
+</script>
+
+</body>
+
+</html>

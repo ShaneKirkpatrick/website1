@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+function add (a,b){
+x=a+b;
+return x;
+}
+
+alert(add(33, 33));
+
+</script>
+
+</body>
+
+</html>

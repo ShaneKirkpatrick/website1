@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	function doFirst(){
+		document.write("I am first YO!");
+	}
+
+	function doSecond(){
+		document.write("second friggin one you wak arsonal of 			deep knowlege!");
+	}
+
+	
+
+	function start () {
+		doFirst ();
+		doSecond ();
+	}
+	
+	start();
+</script>
+
+</body>
+</html>

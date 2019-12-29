@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<!--
+Variables cannot start w/ numbers, only use letters, numbers, or underscores
+Variable types: numbers, strings, 
+-->
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+  var x = 23;
+  var pasion = "text string here \"this is in quotes\"";
+  var love = 30;
+  document.write("  This is all I should see! ");
+    document.write( x );
+  document.write( love );
+</script>
+
+</body>
+
+</html>

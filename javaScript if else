@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<!-- ! does not equal; > greater than  -->
+<script type="text/javascript">
+
+	var blue = 43;
+	var red = 44;
+
+	if(blue>red) {
+		document.write("red doesn't equal blue");
+	}else{ 
+		document.write("red is greater than blue");
+	}
+
+
+</script>
+
+</body>
+</html>

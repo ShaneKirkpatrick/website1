@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!--
+Functions
+Parameters
+Multiple Paramiters
+-->
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+	function todaysAmbassadors (x){
+		alert ("Today We are featuring: " + x);}
+
+todaysAmbassadors ("Ben");
+todaysAmbassadors ("Teri");
+todaysAmbassadors ("Mohamad");
+
+	function powerPair (one, two){
+		document.write (one + " are the power pair this week!" + two <br />);}
+powerPair ("Jake, Hannah");
+powerPair ("Janis, Alex");
+powerPair ("Colton, Dylan");
+
+	function funky (){
+		alert ("alert box");}
+</script>
+
+<form>
+<input type="button" value="Click Here" onclick="funky();">
+</form>
+</body>
+
+</html>
